@@ -135,6 +135,9 @@
 .mb-8 {
     margin-bottom: 2rem
 }
+.mr-0 {
+    margin-right: 0px
+}
 .flex {
     display: flex
 }
@@ -276,6 +279,9 @@
 }
 .pb-80 {
     padding-bottom: 20rem
+}
+.pb-96 {
+    padding-bottom: 24rem
 }
 .text-center {
     text-align: center
@@ -482,6 +488,9 @@
     }
     .lg\:mr-10 {
         margin-right: 2.5rem
+    }
+    .lg\:mr-4 {
+        margin-right: 1rem
     }
     .lg\:justify-center {
         justify-content: center

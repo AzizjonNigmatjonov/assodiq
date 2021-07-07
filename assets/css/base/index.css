@@ -350,6 +350,14 @@ footer a {
     .main-logo-anim {
         display: none;
     }
+
+    #sec3 li {
+        width: 300px !important;
+    }
+
+    #sec3 p, h3 {
+        width: 200px !important;
+    }
 }
 
 @media (max-width: 768px) {

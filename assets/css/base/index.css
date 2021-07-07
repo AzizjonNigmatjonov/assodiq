@@ -1,0 +1,468 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-title {
+    width: 750px;
+}
+
+.main-title span {
+    color: #107E68;
+}
+
+.main-subtext {
+    width: 500px;
+    color: #111;
+}
+
+.main-image-sricle:hover {
+    box-shadow: 0px 20px 53px 0px rgba(34, 60, 80, 0.1);
+}
+
+
+.main-image-text-wrapper {
+    bottom: 0px;
+}
+
+.main-image-sricle:hover .main-image-text-wrapper {
+    display: block;
+    animation: uptoSlide 0.5s forwards;
+}
+
+.main-image-sircle-2 {
+    border: 37px solid #fff;
+    width: 577px;
+    height: 577px;
+    position: absolute;
+    top: -30px;
+    border-radius: 50%;
+    left: -15px;
+}
+
+.main-image-side {
+    transition: 2s;
+}
+
+.main-image-text-wrapper {
+    transition: 2s;
+}
+
+.main-image-side:hover .main-image-text-wrapper {
+    display: block;
+    animation: uptoSlide 0.3s ease-in-out forwards;
+}
+
+
+@keyframes uptoSlide {
+    0% {
+        bottom: -27px;
+        opacity: 0;
+    }
+    100% {
+        bottom: -25px;
+        opacity: 1;
+    }
+}
+
+.main-image-sricle {
+    width: 515px;
+    height: 515px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image-sricle:hover .main-image-sircle-text {
+    display: block;
+    animation: upto 0.7s forwards;
+}
+
+.questions-text-selector {
+    color: #11111177;
+}
+
+.questions-text-selector.active {
+    border-bottom: 2px solid #107E68;
+    color: #111;
+}
+
+.main-question-text-list {
+    display: none;
+}
+
+.main-question-text-list.active {
+    display: block;
+}
+
+.main-logo-anim1 {
+	position: absolute;
+	animation-name: drive;
+	animation-duration: 10s;
+	animation-fill-mode: backwards;
+	animation-delay: 0.3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+.main-logo-anim2 {
+	position: absolute;
+	animation-name: drive2;
+	animation-duration: 10s;
+	animation-fill-mode: backwards;
+	animation-delay: 0.3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+@keyframes drive {
+	0%{
+		transform: translateX(0px);
+	}
+    50% {
+        transform: translateX(100px);
+    }
+    100%{
+		transform: translateX(0px);
+	}
+}
+
+@keyframes drive2 {
+	0%{
+		transform: translateX(0px);
+	}
+    50% {
+        transform: translateX(-100px);
+    }
+    100%{
+		transform: translateX(0px);
+	}
+}
+
+
+@keyframes upto {
+    0% {
+        bottom: -30px;
+    }
+    100% {
+        bottom: 30px;
+    }
+}
+
+.navbar-res-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: .5s;
+    animation: slideInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.navbar-res-wrapper {
+    animation: slideInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+  }
+
+.assodiq-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.section1 {
+    width: 100%;
+}
+
+
+.section2 {
+    width: 100%;
+}
+
+.section3 {
+    width: 100%;
+}
+
+.section3.active {
+    background-color: blue;
+}
+
+.section4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../images/index/image-teacher.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.knowledge-text {
+    transition: 0.3s;
+}
+
+.knowledge-text.active::after {
+    transform: rotate(0deg);
+}
+
+.knowledge-text::after {
+    content: '';
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 14px;
+    height: 7px;
+    background-image: url('../../images/index/Arrow\ -\ Right\ 2.svg');
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    right: -20px;
+}
+
+.knowledge-link {
+    position: relative;
+    transition: 2s;
+}
+
+.knowledge-link:hover::after {
+    right: -28px;
+}
+
+.knowledge-link::after {
+    content: '';
+    background-image: url('../../images/index/right-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    width: 15px;
+    height: 9px;
+    transform: translateY(-50%);
+}
+
+.knowledge-list {
+    display: none;
+}
+
+.knowledge-list.active {
+    display: flex;
+    animation: slidein; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 0.7s; /* don't forget to set a duration! */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.knowledge-list.remove {
+    display: none;
+    animation: slideup; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.contact-input::placeholder{
+    color: #11111155;
+}
+
+@keyframes slidein {
+    0% {
+        margin-top: -180px;
+        opacity: 0;
+    }
+    100% {
+        margin-top: 50px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideup {
+    0% {
+        margin-top: 50px;
+        opacity: 1;
+    }
+    100% {
+        margin-top: -180px;
+        opacity: 0;
+    }
+}
+
+.sec-list {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    
+}
+
+.sec-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-sircle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(16, 126, 104, 0.1);
+    display: inline-block;
+    margin: 3px 0px;
+}
+
+.sec-subtext {
+    display: none;
+}
+
+.sec-text.active .sec-sircle {
+    display: none;
+}
+
+.sec-text.active .sec-subtext {
+    display: inline-block;
+    transform: rotate(90deg);   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: 0.2s;
+}
+
+footer a {
+    transition: 0.3s;
+}
+
+@media (max-width: 1280px) {
+    .knowledge-list {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1030px) {
+    .section4 {
+        background-position: left;
+    }
+
+    .main-logo-anim {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .section1 .container {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+    
+    .main-image-side {
+        display: block !important;
+    } 
+    
+    .main-image-sricle {
+        width: 325px;
+        height: 325px;
+    }
+    
+    .main-image {
+        width: 330px !important;
+    }
+    
+    
+    .main-image-sircle-2 {
+        border: 20px solid #fff;
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        top: -19px;
+        border-radius: 50%;
+        left: -19px;
+    }
+
+    .main-image-text-text {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .main-image-text-img {
+        width: 200px !important;
+    }
+    
+    .main-image-text-wrapper {
+        bottom: 5px !important;
+        left: 55px;
+    }
+    
+    .main-image-text-wrapper p {
+        width: 180px !important;
+        text-align: center;
+        left: -5px !important;
+        top: 15px;
+    }
+    
+    .main-title {
+        width: 100%;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    .main-subtext  {
+        width: 300px;
+        font-size: 18px;
+    }
+    
+    #sec2 h2 {
+        line-height: 50px !important;
+    }
+    
+    .section4 {
+        background-image: url('../../images/index/pnone.png');
+        background-position: bottom;
+    }
+    
+    #sec5 h2 {
+        line-height: 60px !important;
+    }
+    
+    .knowledge-list {
+        width: 100% !important;
+    }
+    
+    .contact-text {
+        width: 100% !important;
+    }
+    
+    .contact-socials {
+        width: 250px;
+        justify-content: center;
+    }
+    
+    .footer-text {
+        width: 300px !important;
+    }
+    
+}
+
+@media (max-width: 506px) {
+    .main-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    
+}

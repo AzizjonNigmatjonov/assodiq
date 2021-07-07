@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assoodiq</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="stylesheet" href="../assets/css/base/index.css">
+  <link rel="stylesheet" href="../assets/fonts/gillroy/stylesheet.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+
+  <div class="z-50 absolute w-full h-full navbar-res-wrapper hidden">
+    
+    <div class="flex justify-center flex-col items-center py-20 bg-white relative" style="opacity: 0.99;">
+      <span class="absolute top-10 right-12 text-4xl cursor-pointer navbar-res-closer">&times;</span>
+      <a href="index.html">
+        <img src="../assets/images/index/Logo.png" alt="photo">
+      </a>
+      <a class="navbar-res-link my-3 mt-8 no-underline text-lg" style="color: #111; font-weight: 600;" href="#sec1">Biz haqimizda</a>
+      <a class="navbar-res-link my-3 no-underline text-lg" style="color: #111; font-weight: 600;" href="#sec2">Kimlar uchun?</a>
+      <a class="navbar-res-link my-3 no-underline text-lg" style="color: #111; font-weight: 600;" href="#sec3">Kurslar</a>
+      <a class="navbar-res-link my-3 no-underline text-lg" style="color: #111; font-weight: 600;" href="#contact">Aloqa</a>
+      <a class="navbar-res-link no-underline text-lg mt-5" style="color: #111; font-weight: 600;"  href="tel:+998944040440">94 404 04 40</a>
+    </div>
+
+  </div>
+  
+  <header class="hidden md:block assodiq-header animate__animated animate__slideInDown bg-white z-50" style="border-bottom: 2px solid rgba(16, 126, 104, 0.1);">
+    <nav class="flex items-center container mx-auto justify-between py-6">
+      <a href="">
+        <img src="../assets/images/index/Logo.png" alt="photo">
+      </a>
+      
+      <ul class="flex">
+        <li class="">
+          <a class="no-underline py-1 mx-2 lg:mx-8 tracking-normal" style="color: #111; font-weight: 600;" href="#sec1">Biz haqimizda</a>
+        </li>
+        <li class="">
+          <a class="no-underline py-1 mx-2 lg:mx-8 tracking-normal" style="color: #111; font-weight: 600;" href="#sec3">Kimlar uchun?</a>
+        </li>
+        <li class="">
+          <a class="no-underline py-1 mx-2 lg:mx-8 tracking-normal" style="color: #111; font-weight: 600;" href="#sec5">Kurslar</a>
+        </li>
+        <li class="">
+          <a class="no-underline py-1 mx-2 lg:mx-8 tracking-normal" style="color: #111; font-weight: 600;" href="#contact">Aloqa</a>
+        </li>
+      </ul>
+      
+      <div class="flex items-center">
+        <img class="w-4" src="../assets/images/index/call.svg" alt="photo">
+        <a class="no-underline pl-2" style="color: #111; font-weight: 600;" href="tel+998944040440">94 404 04 40</a>
+      </div>
+      
+    </nav>
+  </header>
+  
+  <header class="assodiq-header assodiq-header2 md:hidden bg-white z-50">
+    <div class="container mx-auto">
+      <nav class="py-6 flex items-center justify-between">
+        <a href="index.html">
+          <img src="../assets/images/index/Logo.png" alt="photo">
+        </a>
+        <button class="border-none outline-none bg-transparent cursor-pointer navbar-res-opener">
+          <img src="../assets/images/index/bar.svg" alt="photo">
+        </button>
+      </nav>
+    </div>
+  </header>
+  
+  <ul class="sec-list hidden flex justify-center items-center flex-col z-50" style="width: 200px; height: 110px;">
+    <div class="sec-text sec-text1 w-full h-full active">
+      <span class="sec-sircle"></span>
+      <p class="sec-subtext rounded-xl py-1 px-3 text-white text-sm" style="background-color: #107E68;">Bosh sahifa</p>
+    </div>
+    <div class="sec-text sec-text2 w-full" style="height: 120px;">
+      <span class="sec-sircle"></span>
+      <p class="sec-subtext rounded-xl py-1 px-3 text-white text-sm" style="background-color: #107E68;">Nima uchun?</p>
+    </div>
+    <div class="sec-text sec-text3 w-full" style="height: 125px;">
+      <span class="sec-sircle"></span>
+      <p class="sec-subtext rounded-xl py-1 px-3 text-white text-sm" style="background-color: #107E68;">Kimlar uchun?</p>
+    </div>
+    <div class="sec-text sec-text4 w-full" style="height: 70px;">
+      <span class="sec-sircle"></span>
+      <p class="sec-subtext rounded-xl py-1 px-3 text-white text-sm" style="background-color: #107E68;">Ustoz</p>
+    </div>
+    <div class="sec-text sec-text5 w-full" style="height: 70px;">
+      <span class="sec-sircle"></span>
+      <p class="sec-subtext rounded-xl py-1 px-3 text-white text-sm" style="background-color: #107E68;">Ilmlar</p>
+    </div>
+    <div class="sec-text sec-text6 w-full" style="height: 85px;">
+      <span class="sec-sircle"></span>
+      <p class="sec-subtext rounded-xl py-1 px-3 text-white text-sm" style="background-color: #107E68;">Kontakt</p>
+    </div>
+    <div class="sec-text sec-text7 w-full" style="height: 65px;">
+      <span class="sec-sircle"></span>
+      <p class="sec-subtext rounded-xl py-1 px-3 text-white text-sm" style="background-color: #107E68;">Tagi</p>
+    </div>
+  </ul>
+  
+  <section id="sec1" class="section1 relative">
+    <img class="absolute main-logo-anim main-logo-anim1" style="top: 150px; left: 450px;" width="100px" src="../assets/images/index/mainlogo1.png" alt="photo">
+    <img class="absolute main-logo-anim main-logo-anim2" style="top: 500px; left: 800px;" width="100px" src="../assets/images/index/mainlogo2.png" alt="photo">
+    <div class="container mx-auto pt-28 md:pt-48 md:pb-36 pb-20 flex items-center justify-center">
+      <div>
+        <h1 class="main-title text-6xl text-center md:text-left">Biznesni <span>Islom Moliyasiga</span>
+          muvofiq boshqarish
+        </h1>
+        <p class="main-subtext text-lg mt-2 md:mt-8 text-center mx-auto md:text-left md:mx-0">Islom moliyasi kursimiz 1 500 yillik sinalgan ilm asosida
+          tuzilgan.
+        </p>
+        <div class="flex items-center mt-8 justify-center flex-col md:flex-row md:justify-start">
+          <a class="no-underline text-lg text-white py-3 px-7 rounded-lg" style="background-color: #107E68; font-weight: 500;" href="#sec5">Kurslar</a>
+          <button class="outline-none py-3 border-none bg-transparent flex text-lg items-center ml-0 mt-6 md:mt-0 md:ml-10 cursor-pointer" style="color: #111; font-weight: 600;">
+            <img class="mr-2" src="../assets/images/index/Play.svg" alt="photo">
+            Videoni ko'rish
+          </button>
+        </div>
+      </div>
+      <div class="main-image-side mb-10 md:mt-0 md:mb-0 hidden xl:block relative">
+        <div class="md:ml-4 relative main-image-sricle">
+          <img class="main-image" style="width: 520px;" src="../assets/images/index/ustoz.png" alt="photo">
+          <div class="absolute main-image-text-wrapper hidden" style="bottom: -25px;">
+            <img class="main-image-text-img" src="../assets/images/index/Rectangle 183.png" alt="photo">
+            <p class="absolute main-image-text-text text-white text-md" style="bottom: 70px; left: 53px; width: 220px;">Ustoz Abdulmannon Abdulloh</p>
+          </div>
+        </div>
+        <div class="main-image-sircle-2">
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="sec2" class="section2 mb-20 md:pb-36">
+    <div class="container mx-auto flex flex-col items-center">
+      <h2 class="text-center text-5xl" style="line-height: 40px;"><span style="color: #107E68;">Islom Moliyasi</span> nima uchun kerak.</h2>
+      
+      <div class="flex items-center justify-center mt-10 md:mt-16">
+        <p data-target="mainListText1" class="text-xl md:text-2xl py-2 md:mx-10 mr-4 md:mr-10 font-semibold questions-text-selector questions-text-selector1 active cursor-pointer">Islom moliyasi</p>
+        <p data-target="mainListText2" class="text-xl md:text-2xl py-2 md:mx-10 font-semibold questions-text-selector questions-text-selector2  cursor-pointer">Kurs nima beradi</p>
+      </div>
+      
+      <div id="mainListText1" class="flex justify-center flex-col items-center000000 active mt-4 main-question-text-list" style="color: #111111cf;">
+        <p class="text-center mt-6 leading-7 text-xl" style="font-weight: 600;">
+          Biznesdagi muammolarning barchasi shariati islomiyaga rioya qilmaslik oqibatida bo‘ladi. <br>
+          Siz har qancha harakat qilmang, urinmang, baribir ishingizda baraka bo‘lmayaptimi? 
+        </p>
+        <p class="text-center mt-6 text-xl" style="font-weight: 600;">
+          Bilingki, bu sizni Islom fiqhiga rioya qilmayotganingiz alomatidir...
+        </p>
+        <p class="text-center mt-6 leading-7 text-xl" style="font-weight: 600;">
+          Hazrati Umar <span style="color: #107E68;">“Kim fiqhni bilmasa bozorimizga kirmasin”</span>, dedilar. <br>
+          Chunki fiqhni bilmagan inson riboga qo‘l urib qo‘yishi xato sodir qilishi oson bo‘lib qoladi. 
+        </p>
+        <p class="text-center mt-6 leading-7 text-xl" style="font-weight: 600;">    
+          Shariat ahkomlarini, ayniqsa <span style="color: #107E68;">ribo, savdo, ijara, sherikchilik va boshqa muomalat</span> ilmlarini <br>
+          bilmay turib xatodan qanday qilib saqlanish mumkin?</p>
+        </div>
+        
+        <div id="mainListText2" class="flex justify-center flex-col items-center mt-4 main-question-text-list" style="color: #111111cf;">
+          <p class="text-center mt-6 leading-7 text-xl" style="font-weight: 500;">
+            Islom moliyasi to‘g‘risida asl tushunchani olasiz
+          </p>
+          <p class="text-center mt-6 text-xl" style="font-weight: 500;">
+            Savdo, jumladan nasiya savdo, ijara va ishlab chiqarish bitimlarini tuzishni o‘rganasiz
+          </p>
+          <p class="text-center mt-6 leading-7 text-xl" style="font-weight: 500;">
+            Sherikchilikka pul jalb qilish va berish uslublarini o‘rganasiz
+            
+          </p>
+          <p class="text-center mt-6 leading-7 text-xl" style="font-weight: 500;">    
+            Savollar o‘rniga masalalarni mustaqil yechish ko‘nikmasini xosil qilasiz
+          </p>
+          <p class="text-center mt-6 leading-7 text-xl" style="font-weight: 500;">    
+            O‘zingiz va hamkorlaringiz xatolarini ko‘rib, ularni to‘g‘rilashni boshlaysiz
+          </p>
+          <p class="text-center mt-6 leading-7 text-xl" style="font-weight: 500;">    
+            Milliarder sahobalarning tijoratlaridagi sir-asrorlariga ega bo‘lasiz 
+          </p>
+          <p class="text-center mt-6 leading-7 text-xl" style="font-weight: 500;">    
+            Faoliyatingiz uchun yangi tartibli rejalar tuzasiz
+          </p>
+          <p class="text-center mt-6 leading-7 text-xl" style="font-weight: 500;">    
+            O‘z faoliyatingizni ustoz bilan shaxsiy uchrashuv davomida tahlil qilib olasiz 
+          </p>
+          <p class="text-center mt-6 leading-7 text-xl" style="font-weight: 500;">    
+            Shaxsiy biznesingizga oid savollarni yechib olasiz
+          </p>
+          <p class="text-center mt-6 leading-7 text-xl" style="font-weight: 500;">    
+            Yangi tadbirkolar tanishlar orttirish
+          </p>
+        </div>
+        <a href="#contact" class="no-underline text-white py-3 px-6 rounded-lg mt-10 md:mt-16" style="background-color: #107E68;">Aloqaga chiqish</a>
+      </div>
+    </section>
+    
+    <section id="sec3" class="section3 mb-20 md:pb-36">
+      <div class="container mx-auto">
+        <h2 class="text-5xl text-center">Kurs kimlarga <span style="color: #107E68;">foydali</span> bo'ladi?</h2>
+        <ul class="flex items-center justify-start lg:justify-center mx-auto mt-10 md:mt-20 flex-wrap md:w-3/4">
+          <li class="flex items-start">
+            <div class="flex items-center justify-center mr-4 rounded-full text-2xl font-semibold" style="color: #107E68; width: 50px; height: 50px; background-color: rgba(16, 126, 104, 0.2);">
+              01
+            </div>
+            <div class="flex flex-col">
+              <h3 class="text-2xl inline-block" style="color: #111;">Boshqaruvchilarga</h3>
+              <p class="w-64 xl:w-72 mt-1 inline-block leading-6" style="color: #111;">Boshqaruvni chiroyli va
+                mukammal qilish ilmi.</p>
+              </div>
+            </li>
+            <li class="flex items-start lg:mx-10 mt-10 lg:mt-0">
+              <div class="flex items-center justify-center mr-4 rounded-full text-2xl font-semibold" style="color: #107E68; width: 50px; height: 50px; background-color: rgba(16, 126, 104, 0.2);">
+                02
+              </div>
+              <div class="flex flex-col">
+                <h3 class="text-2xl inline-block" style="color: #111;">Biznes egalariga</h3>
+                <p class="w-72 mt-1 inline-block leading-6" style="color: #111;">Muvaffaqiyatli biznes kaliti
+                  yoxud baraka omillari.</p>
+                </div>
+              </li>
+              <li class="flex items-start mt-10 lg:mt-20 2xl:mt-0">
+                <div class="flex items-center justify-center mr-4 rounded-full text-2xl font-semibold" style="color: #107E68; width: 50px; height: 50px; background-color: rgba(16, 126, 104, 0.2);">
+                  03
+                </div>
+                <div class="flex flex-col">
+                  <h3 class="text-2xl inline-block" style="color: #111;">Yangi tadbirkorlarga</h3>
+                  <p class="w-72 mt-1 inline-block leading-6" style="color: #111;">Islomda tadbirkorlik asoslari va shartlari.</p>
+                  </div>
+                </li>
+                <li class="flex items-start mt-10 lg:mt-20 mr-10">
+                  <div class="flex items-center justify-center mr-4 rounded-full text-2xl font-semibold" style="color: #107E68; width: 50px; height: 50px; background-color: rgba(16, 126, 104, 0.2);">
+                    04
+                  </div>
+                  <div class="flex flex-col">
+                    <h3 class="text-2xl inline-block" style="color: #111;">Bankir va lizingchilarga</h3>
+                    <p class="w-72 mt-1 inline-block leading-6" style="color: #111;">Islom tamoyillariga asoslangan
+                      bank va bank xizmatlari asoslari.</p>
+                    </div>
+                  </li>
+                  <li class="flex items-start mt-10 lg:mt-20">
+                    <div class="flex items-center justify-center mr-4 rounded-full text-2xl font-semibold" style="color: #107E68; width: 50px; height: 50px; background-color: rgba(16, 126, 104, 0.2);">
+                      05
+                    </div>
+                    <div class="flex flex-col">
+                      <h3 class="text-2xl inline-block" style="color: #111;">Savdogarlarga</h3>
+                      <p class="w-72 mt-1 inline-block leading-6" style="color: #111;">Halol savdo ortidan barakaga
+                        erishish yo‘llari.</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              
+              <section id="sec4" class="section4 py-10 pb-80 md:py-20">
+                <div class="container flex justify-center md:justify-start lg:justify-end mx-auto">
+                  <div class=" md:w-1/2 px-10 md:px-0">
+                    <p class="text-2xl font-semibold text-center md:text-left" style="color: #107E68;">Ustoz</p>
+                    <h2 class="text-4xl mt-2 text-center md:text-left" style="color: #111;">Abdulmannon Abdulloh</h2>
+                    <div class="flex items-start mt-6">
+                      <img class="mt-1 mr-2" src="../assets/images/index/knowledge-logo.svg" alt="photo">
+                      <p class="text-lg font-medium">Xindistonning, Devband shaxridagi <span style="color: #107E68;">Dorul-ulum</span> oliygohida, 
+                        fatvo fakultetida ta’lim olganlar.</p>
+                      </div>
+                      <div class="flex items-start mt-5">
+                        <img class="mt-1 mr-2" src="../assets/images/index/knowledge-logo.svg" alt="photo">
+                        <p class="text-lg font-medium">Tarqatish borasida <span style="color: #107E68;">Shayx Muhammad Sodiq Muhammad 
+                          Yusuf rohmatullohi alayh va Shayx Muhammad Taqiy Usmoniy
+                          hafizahulloh </span> tomonlaridan ijoza berilgan.</p>
+                        </div>
+                        <div class="flex items-start mt-5">
+                          <img class="mt-1 mr-2" src="../assets/images/index/knowledge-logo.svg" alt="photo">
+                          <p class="text-lg font-medium"><span style="color: #107E68;">1000’ga</span> yaqin tadbirkorlarga Islom moliyasiga oid ilmlarni
+                            ta’limotlari berilgan.</p>
+                          </div>
+                          <div class="flex items-start mt-5">
+                            <img class="mt-1 mr-2" src="../assets/images/index/knowledge-logo.svg" alt="photo">
+                            <p class="text-lg font-medium">Abdulmannon Abdulloh Islom Moliyasida bo’yicha <span style="color: #107E68;">30 yilllik tajribaga ega.</span></p>
+                          </div>
+                          <button class="border-none outline-none hidden md:inline-block text-white bg-transparent py-3 px-8 rounded-lg ml-7 mt-10" style="background-color: #107E68;">Bog'lanish</button>
+                          
+                        </div>
+                      </div>
+                    </section>
+                    <div class="flex justify-center">
+                      <a href="#contact" class="border-none outline-none no-underline text-white bg-transparent py-3 px-8 rounded-lg md:ml-7 mt-10" style="background-color: #107E68;">Bog'lanish</a>
+                    </div>
+                    
+                    <section id="sec5" class="section5 py-20 md:py-36 relative">         
+                      <div class="container mx-auto">
+                        <h2 class="text-5xl text-center">Sizga foydali <span style="color: #107E68;">ilmlar</span></h2>
+                        
+                      </div> 
+                      <div class="mt-10 md:mt-20" style="border-top: 2px solid #107e681a;">
+                        <div class="mx-auto flex flex-col items-center">
+                          <div class="container mx-auto py-6 md:py-10" style="background-color: #fff; z-index: 20;">
+                            <div class="flex items-center justify-between mx-auto flex-col md:flex-row" style="width: 100%;">
+                              <p class="text-2xl font-semibold xl:ml-40 2xl:ml-64" style="color: #101010;">Muvaffaqiyat kaliti</p>
+                              <div class="rounded-full relative mr-32 md:mr-52 mt-4 md:mt-0 xl:mr-72 2xl:mr-96  font-medium" style="background-color: rgba(16, 126, 104,0.1); width: 50px; height: 50px;">
+                                <p data-target="klist1" class="cursor-pointer knowledge-selector 
+                                absolute w-36 top-1/2 left-4 text-xl knowledge-text" style="transform: translateY(-50%);color: rgba(17, 17, 17, 0.62);">Kurslarni ko'rish</p> 
+                              </div>
+                            </div>
+                          </div>
+                          <div>
+                            <ul id="klist1" class="
+                            md:mx-20 lg:mx-auto knowledge-list flex flex-wrap md:justify-start justify-center items-center mb-10" style="width: 1100px;">
+                            <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6">
+                              <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                              </div>
+                              <p class="text-xl font-semibold mt-2" style="color: #111;">Musulmonlik xarakteri yoxud
+                                baraka omillari</p>
+                                <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                #107E68;" href="">Bog'lanish</a>
+                              </li>
+                              <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class=" rounded-xl py-6 px-6 md:mx-10 mt-10 md:mt-0">
+                                <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                  <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                </div>
+                                <p class="text-xl font-semibold mt-2" style="color: #111;">Milliarder sahobalarning
+                                  tijoratlaridagi sir-asrorlari</p>
+                                  <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                  #107E68;" href="">Bog'lanish</a>
+                                </li>
+                                <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="mt-10 lg:mt-0 md:mr-10 lg:mr-0 rounded-xl py-6 px-6">
+                                  <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                    <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                  </div>
+                                  <p class="text-xl font-semibold mt-2" style="color: #111;">Buyurtmani chiroyli va tugal
+                                    qilish ilmi</p>
+                                    <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                    #107E68;" href="">Bog'lanish</a>
+                                  </li>
+                                  <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10 md:mr-10">
+                                    <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                      <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                    </div>
+                                    <p class="text-xl font-semibold mt-2" style="color: #111;">Doimiy yog‘ilib turadigan 
+                                      ne’matdan yuz o‘girishni 
+                                      oldini olish</p>
+                                      <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                      #107E68;" href="">Bog'lanish</a>
+                                    </li>
+                                    <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10">
+                                      <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                        <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                      </div>
+                                      <p class="text-xl font-semibold mt-2" style="color: #111;">Insonning asl sarmoyasi</p>
+                                        <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                        #107E68;" href="">Bog'lanish</a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div> 
+                              
+                              <div class="" style="border-top: 2px solid #107e681a;">
+                                <div class="mx-auto flex flex-col items-center">
+                                  <div class="container mx-auto py-10" style="background-color: #fff; z-index: 20;">
+                                    <div class="flex flex-col md:flex-row items-center justify-between mx-auto" style="width: 100%;">
+                                      <p class="text-2xl font-semibold xl:ml-40 2xl:ml-64" style="color: #101010;">Boshqaruv ilmi</p>
+                                      <div class="rounded-full relative font-medium mr-32 md:mr-52 xl:mr-72 2xl:mr-96" style="background-color: rgba(16, 126, 104,0.1); width: 50px; height: 50px;">
+                                        <p data-target="klist2" class="cursor-pointer knowledge-selector 
+                                        absolute w-36 top-1/2 left-4 text-xl knowledge-text" style="transform: translateY(-50%);color: rgba(17, 17, 17, 0.62);">Kurslarni ko'rish</p> 
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <ul id="klist2" class="
+                                    md:mx-20 lg:mx-auto knowledge-list flex flex-wrap md:justify-start justify-center items-center mb-10" style="width: 1100px;">
+                                    <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6">
+                                      <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                        <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                      </div>
+                                      <p class="text-xl font-semibold mt-2" style="color: #111;">Musulmonlik xarakteri yoxud
+                                        baraka omillari</p>
+                                        <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                        #107E68;" href="">Bog'lanish</a>
+                                      </li>
+                                      <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class=" rounded-xl py-6 px-6 md:mx-10 mt-10 md:mt-0">
+                                        <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                          <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                        </div>
+                                        <p class="text-xl font-semibold mt-2" style="color: #111;">Milliarder sahobalarning
+                                          tijoratlaridagi sir-asrorlari</p>
+                                          <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                          #107E68;" href="">Bog'lanish</a>
+                                        </li>
+                                        <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="mt-10 lg:mt-0 md:mr-10 lg:mr-0 rounded-xl py-6 px-6">
+                                          <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                            <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                          </div>
+                                          <p class="text-xl font-semibold mt-2" style="color: #111;">Buyurtmani chiroyli va tugal
+                                            qilish ilmi</p>
+                                            <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                            #107E68;" href="">Bog'lanish</a>
+                                          </li>
+                                          <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10 md:mr-10">
+                                            <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                              <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                            </div>
+                                            <p class="text-xl font-semibold mt-2" style="color: #111;">Doimiy yog‘ilib turadigan 
+                                              ne’matdan yuz o‘girishni 
+                                              oldini olish</p>
+                                              <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                              #107E68;" href="">Bog'lanish</a>
+                                            </li>
+                                            <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10">
+                                              <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                              </div>
+                                              <p class="text-xl font-semibold mt-2" style="color: #111;">Insonning asl sarmoyasi</p>
+                                                <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                #107E68;" href="">Bog'lanish</a>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div> 
+                                      
+                                      <div class="" style="border-top: 2px solid #107e681a;">
+                                        <div class="mx-auto flex flex-col items-center">
+                                          <div class="container mx-auto py-10" style="background-color: #fff; z-index: 20;">
+                                            <div class="flex items-center flex-col md:flex-row  justify-between mx-auto" style="width: 100%;">
+                                              <p class="text-2xl font-semibold xl:ml-40 2xl:ml-64" style="color: #101010;">Muomalat ilmi</p>
+                                              <div class="rounded-full relative font-medium mr-32 md:mr-52 xl:mr-72 2xl:mr-96" style="background-color: rgba(16, 126, 104,0.1); width: 50px; height: 50px;">
+                                                <p data-target="klist3" class="cursor-pointer knowledge-selector 
+                                                absolute w-36 top-1/2 left-4 text-xl knowledge-text" style="transform: translateY(-50%);color: rgba(17, 17, 17, 0.62);">Kurslarni ko'rish</p> 
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div>
+                                            <ul id="klist3" class="
+                                            md:mx-20 lg:mx-auto knowledge-list flex flex-wrap md:justify-start justify-center items-center mb-10" style="width: 1100px;">
+                                            <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6">
+                                              <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                              </div>
+                                              <p class="text-xl font-semibold mt-2" style="color: #111;">Musulmonlik xarakteri yoxud
+                                                baraka omillari</p>
+                                                <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                #107E68;" href="">Bog'lanish</a>
+                                              </li>
+                                              <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class=" rounded-xl py-6 px-6 md:mx-10 mt-10 md:mt-0">
+                                                <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                  <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                </div>
+                                                <p class="text-xl font-semibold mt-2" style="color: #111;">Milliarder sahobalarning
+                                                  tijoratlaridagi sir-asrorlari</p>
+                                                  <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                  #107E68;" href="">Bog'lanish</a>
+                                                </li>
+                                                <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="mt-10 lg:mt-0 md:mr-10 lg:mr-0 rounded-xl py-6 px-6">
+                                                  <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                    <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                  </div>
+                                                  <p class="text-xl font-semibold mt-2" style="color: #111;">Buyurtmani chiroyli va tugal
+                                                    qilish ilmi</p>
+                                                    <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                    #107E68;" href="">Bog'lanish</a>
+                                                  </li>
+                                                  <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10 md:mr-10">
+                                                    <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                      <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                    </div>
+                                                    <p class="text-xl font-semibold mt-2" style="color: #111;">Doimiy yog‘ilib turadigan 
+                                                      ne’matdan yuz o‘girishni 
+                                                      oldini olish</p>
+                                                      <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                      #107E68;" href="">Bog'lanish</a>
+                                                    </li>
+                                                    <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10">
+                                                      <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                        <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                      </div>
+                                                      <p class="text-xl font-semibold mt-2" style="color: #111;">Insonning asl sarmoyasi</p>
+                                                        <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                        #107E68;" href="">Bog'lanish</a>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div> 
+                                              
+                                              <div class="" style="border-top: 2px solid #107e681a;">
+                                                <div class="mx-auto flex flex-col items-center">
+                                                  <div class="container mx-auto py-10" style="background-color: #fff; z-index: 20;">
+                                                    <div class="flex flex-col md:flex-row items-center justify-between mx-auto" style="width: 100%;">
+                                                      <p class="text-2xl font-semibold xl:ml-40 2xl:ml-64" style="color: #101010;">Islom moliyasi</p>
+                                                      <div class="rounded-full relative mr-32 md:mr-52 xl:mr-72 2xl:mr-96 font-medium" style="background-color: rgba(16, 126, 104,0.1); width: 50px; height: 50px;">
+                                                        <p data-target="klist4" class="cursor-pointer knowledge-selector 
+                                                        absolute w-36 top-1/2 left-4 text-xl knowledge-text" style="transform: translateY(-50%);color: rgba(17, 17, 17, 0.62);">Kurslarni ko'rish</p> 
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div>
+                                                    <ul id="klist4" class="
+                                                    md:mx-20 lg:mx-auto knowledge-list flex flex-wrap md:justify-start justify-center items-center mb-10" style="width: 1100px;">
+                                                    <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6">
+                                                      <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                        <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                      </div>
+                                                      <p class="text-xl font-semibold mt-2" style="color: #111;">Musulmonlik xarakteri yoxud
+                                                        baraka omillari</p>
+                                                        <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                        #107E68;" href="">Bog'lanish</a>
+                                                      </li>
+                                                      <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class=" rounded-xl py-6 px-6 md:mx-10 mt-10 md:mt-0">
+                                                        <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                          <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                        </div>
+                                                        <p class="text-xl font-semibold mt-2" style="color: #111;">Milliarder sahobalarning
+                                                          tijoratlaridagi sir-asrorlari</p>
+                                                          <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                          #107E68;" href="">Bog'lanish</a>
+                                                        </li>
+                                                        <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="mt-10 lg:mt-0 md:mr-10 lg:mr-0 rounded-xl py-6 px-6">
+                                                          <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                            <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                          </div>
+                                                          <p class="text-xl font-semibold mt-2" style="color: #111;">Buyurtmani chiroyli va tugal
+                                                            qilish ilmi</p>
+                                                            <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                            #107E68;" href="">Bog'lanish</a>
+                                                          </li>
+                                                          <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10 md:mr-10">
+                                                            <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                              <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                            </div>
+                                                            <p class="text-xl font-semibold mt-2" style="color: #111;">Doimiy yog‘ilib turadigan 
+                                                              ne’matdan yuz o‘girishni 
+                                                              oldini olish</p>
+                                                              <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                              #107E68;" href="">Bog'lanish</a>
+                                                            </li>
+                                                            <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10">
+                                                              <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                              </div>
+                                                              <p class="text-xl font-semibold mt-2" style="color: #111;">Insonning asl sarmoyasi</p>
+                                                                <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                #107E68;" href="">Bog'lanish</a>
+                                                              </li>
+                                                            </ul>
+                                                          </div>
+                                                        </div>
+                                                      </div> 
+                                                      
+                                                      <div class="" style="border-top: 2px solid #107e681a;">
+                                                        <div class="mx-auto flex flex-col items-center">
+                                                          <div class="container mx-auto py-10" style="background-color: #fff; z-index: 20;">
+                                                            <div class="flex flex-col md:flex-row items-center justify-between mx-auto" style="width: 100%;">
+                                                              <p class="text-2xl font-semibold xl:ml-40 2xl:ml-64" style="color: #101010;">Sherikchilik</p>
+                                                              <div class="rounded-full relative font-medium mr-32 md:mr-52 xl:mr-72 2xl:mr-96" style="background-color: rgba(16, 126, 104,0.1); width: 50px; height: 50px;">
+                                                                <p data-target="klist5" class="cursor-pointer knowledge-selector 
+                                                                absolute w-36 top-1/2 left-4 text-xl knowledge-text" style="transform: translateY(-50%);color: rgba(17, 17, 17, 0.62);">Kurslarni ko'rish</p> 
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <div>
+                                                            <ul id="klist5" class="
+                                                            md:mx-20 lg:mx-auto knowledge-list flex flex-wrap md:justify-start justify-center items-center mb-10" style="width: 1100px;">
+                                                            <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6">
+                                                              <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                              </div>
+                                                              <p class="text-xl font-semibold mt-2" style="color: #111;">Musulmonlik xarakteri yoxud
+                                                                baraka omillari</p>
+                                                                <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                #107E68;" href="">Bog'lanish</a>
+                                                              </li>
+                                                              <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class=" rounded-xl py-6 px-6 md:mx-10 mt-10 md:mt-0">
+                                                                <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                  <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                </div>
+                                                                <p class="text-xl font-semibold mt-2" style="color: #111;">Milliarder sahobalarning
+                                                                  tijoratlaridagi sir-asrorlari</p>
+                                                                  <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                  #107E68;" href="">Bog'lanish</a>
+                                                                </li>
+                                                                <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="mt-10 lg:mt-0 md:mr-10 lg:mr-0 rounded-xl py-6 px-6">
+                                                                  <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                    <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                  </div>
+                                                                  <p class="text-xl font-semibold mt-2" style="color: #111;">Buyurtmani chiroyli va tugal
+                                                                    qilish ilmi</p>
+                                                                    <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                    #107E68;" href="">Bog'lanish</a>
+                                                                  </li>
+                                                                  <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10 md:mr-10">
+                                                                    <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                      <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                    </div>
+                                                                    <p class="text-xl font-semibold mt-2" style="color: #111;">Doimiy yog‘ilib turadigan 
+                                                                      ne’matdan yuz o‘girishni 
+                                                                      oldini olish</p>
+                                                                      <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                      #107E68;" href="">Bog'lanish</a>
+                                                                    </li>
+                                                                    <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10">
+                                                                      <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                        <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                      </div>
+                                                                      <p class="text-xl font-semibold mt-2" style="color: #111;">Insonning asl sarmoyasi</p>
+                                                                        <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                        #107E68;" href="">Bog'lanish</a>
+                                                                      </li>
+                                                                    </ul>
+                                                                    </div>
+                                                                  </div>
+                                                                </div> 
+                                                                
+                                                                <div class="" style="border-top: 2px solid #107e681a;">
+                                                                  <div class="mx-auto flex flex-col items-center">
+                                                                    <div class="container mx-auto py-10" style="background-color: #fff; z-index: 20;">
+                                                                      <div class="flex flex-col md:flex-row items-center justify-between mx-auto" style="width: 100%;">
+                                                                        <p class="text-2xl font-semibold xl:ml-40 2xl:ml-64" style="color: #101010;">Yuridik masalalar</p>
+                                                                        <div class="rounded-full mr-32 md:mr-52 xl:mr-72 2xl:mr-96 relative font-medium" style="background-color: rgba(16, 126, 104,0.1); width: 50px; height: 50px;">
+                                                                          <p data-target="klist6" class="cursor-pointer knowledge-selector 
+                                                                          absolute w-36 top-1/2 left-4 text-xl knowledge-text" style="transform: translateY(-50%);color: rgba(17, 17, 17, 0.62);">Kurslarni ko'rish</p> 
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div>
+                                                                      <ul id="klist6" class="
+                                                                      md:mx-20 lg:mx-auto knowledge-list flex flex-wrap md:justify-start justify-center items-center mb-10" style="width: 1100px;">
+                                                                      <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6">
+                                                                        <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                          <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                        </div>
+                                                                        <p class="text-xl font-semibold mt-2" style="color: #111;">Musulmonlik xarakteri yoxud
+                                                                          baraka omillari</p>
+                                                                          <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                          #107E68;" href="">Bog'lanish</a>
+                                                                        </li>
+                                                                        <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class=" rounded-xl py-6 px-6 md:mx-10 mt-10 md:mt-0">
+                                                                          <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                            <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                          </div>
+                                                                          <p class="text-xl font-semibold mt-2" style="color: #111;">Milliarder sahobalarning
+                                                                            tijoratlaridagi sir-asrorlari</p>
+                                                                            <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                            #107E68;" href="">Bog'lanish</a>
+                                                                          </li>
+                                                                          <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="mt-10 lg:mt-0 md:mr-10 lg:mr-0 rounded-xl py-6 px-6">
+                                                                            <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                              <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                            </div>
+                                                                            <p class="text-xl font-semibold mt-2" style="color: #111;">Buyurtmani chiroyli va tugal
+                                                                              qilish ilmi</p>
+                                                                              <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                              #107E68;" href="">Bog'lanish</a>
+                                                                            </li>
+                                                                            <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10 md:mr-10">
+                                                                              <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                                <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                              </div>
+                                                                              <p class="text-xl font-semibold mt-2" style="color: #111;">Doimiy yog‘ilib turadigan 
+                                                                                ne’matdan yuz o‘girishni 
+                                                                                oldini olish</p>
+                                                                                <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                                #107E68;" href="">Bog'lanish</a>
+                                                                              </li>
+                                                                              <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10">
+                                                                                <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                                  <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                                </div>
+                                                                                <p class="text-xl font-semibold mt-2" style="color: #111;">Insonning asl sarmoyasi</p>
+                                                                                  <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                                  #107E68;" href="">Bog'lanish</a>
+                                                                                </li>
+                                                                              </ul>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div> 
+                                                                        
+                                                                        
+                                                                        <div class="" style="border-top: 2px solid #107e681a; border-bottom: 2px solid #107e681a;">
+                                                                          <div class="mx-auto flex flex-col items-center">
+                                                                            <div class="container mx-auto py-10" style="background-color: #fff; z-index: 20;">
+                                                                              <div class="flex flex-col md:flex-row items-center justify-between mx-auto" style="width: 100%;">
+                                                                                <p class="text-2xl font-semibold xl:ml-40 2xl:ml-64" style="color: #101010;">Tarqatma materiallar</p>
+                                                                                <div class="rounded-full mr-32 md:mr-52 xl:mr-72 2xl:mr-96 relative font-medium" style="background-color: rgba(16, 126, 104,0.1); width: 50px; height: 50px;">
+                                                                                  <p data-target="klist7" class="cursor-pointer knowledge-selector 
+                                                                                  absolute w-36 top-1/2 left-4 text-xl knowledge-text" style="transform: translateY(-50%);color: rgba(17, 17, 17, 0.62);">Kurslarni ko'rish</p> 
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div>
+                                                                              <ul id="klist7" class="
+                                                                              md:mx-20 lg:mx-auto knowledge-list flex flex-wrap md:justify-start justify-center items-center mb-10" style="width: 1100px;">
+                                                                              <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6">
+                                                                                <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                                  <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                                </div>
+                                                                                <p class="text-xl font-semibold mt-2" style="color: #111;">Musulmonlik xarakteri yoxud
+                                                                                  baraka omillari</p>
+                                                                                  <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                                  #107E68;" href="">Bog'lanish</a>
+                                                                                </li>
+                                                                                <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class=" rounded-xl py-6 px-6 md:mx-10 mt-10 md:mt-0">
+                                                                                  <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                                    <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                                  </div>
+                                                                                  <p class="text-xl font-semibold mt-2" style="color: #111;">Milliarder sahobalarning
+                                                                                    tijoratlaridagi sir-asrorlari</p>
+                                                                                    <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                                    #107E68;" href="">Bog'lanish</a>
+                                                                                  </li>
+                                                                                  <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="mt-10 lg:mt-0 md:mr-10 lg:mr-0 rounded-xl py-6 px-6">
+                                                                                    <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                                      <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                                    </div>
+                                                                                    <p class="text-xl font-semibold mt-2" style="color: #111;">Buyurtmani chiroyli va tugal
+                                                                                      qilish ilmi</p>
+                                                                                      <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                                      #107E68;" href="">Bog'lanish</a>
+                                                                                    </li>
+                                                                                    <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10 md:mr-10">
+                                                                                      <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                                        <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                                      </div>
+                                                                                      <p class="text-xl font-semibold mt-2" style="color: #111;">Doimiy yog‘ilib turadigan 
+                                                                                        ne’matdan yuz o‘girishni 
+                                                                                        oldini olish</p>
+                                                                                        <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                                        #107E68;" href="">Bog'lanish</a>
+                                                                                      </li>
+                                                                                      <li style="border: 3px solid rgba(16, 126, 104, 0.1); width: 320px; height: 235px;" class="rounded-xl py-6 px-6 mt-10">
+                                                                                        <div class="rounded-full relative" style="margin-left: 8px; width: 40px; height: 40px; background-color: rgba(16, 126, 104,0.1);">
+                                                                                          <p class="text-2xl absolute" style="font-weight: 800; color: rgba(17, 17, 17, .6); top: 50%; transform: translateY(-50%); left: -7px;">01</p>
+                                                                                        </div>
+                                                                                        <p class="text-xl font-semibold mt-2" style="color: #111;">Insonning asl sarmoyasi</p>
+                                                                                          <a class="knowledge-link no-underline font-medium mt-6 inline-block" style="color: 
+                                                                                          #107E68;" href="">Bog'lanish</a>
+                                                                                        </li>
+                                                                                      </ul>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div> 
+                                                                              </section>
+                                                                              
+                                                                              <section id="contact" class="pb-20 md:pb-36">
+                                                                                <div class="container mx-auto flex flex-col items-center">
+                                                                                  <h2 class="text-5xl text-center">Biz bilan <span style="color: #107E68;">bog’laning</span></h2>
+                                                                                  <p class="contact-text text-center leading-6 mx-auto mt-10" style="width: 650px; color: #111;">
+                                                                                    "Bilmaganni so'rab o'rgangan olim, orlanib so'ramagan o'ziga zolim". Siz ham so'rashdan uyalmang va biz bilan bog'laning. Sizga islom moliyasida ilmingiz ziyoda bo'lishi uchun qo'ldan kelgancha yordam beramiz!
+                                                                                  </p>
+                                                                                  <form action="" class="flex items-center mt-12 flex-col md:flex-row">
+                                                                                    <input class="contact-input tracking-wide py-2 px-3 border-none outline-none" style="color: #111; border-bottom: 1px solid #11111122;" type="text" placeholder="Ism">
+                                                                                    <input class="contact-input my-8 md:my-0 md:mx-8 tracking-wide py-2 px-3 border-none outline-none" style="color: #111; border-bottom: 1px solid #11111122; type="text" placeholder="Tel.raqam">
+                                                                                    <button class="cursor-pointer outline-none border-none bg-transparent text-white py-3 px-6 rounded-lg" style="background-color: #107E68;">Yuborish</button>
+                                                                                  </form>
+                                                                                  <div class="flex items-center mt-10 flex-wrap contact-socials">
+                                                                                    <a href="" class="flex items-center no-underline font-semibold" style="color: #101010;">
+                                                                                      <img class="mr-1" src="../assets/images/index/telegram.svg" alt="photo">
+                                                                                      Telegram
+                                                                                    </a>
+                                                                                    <a href="" class="flex items-center no-underline font-semibold mx-4 md:mx-20" style="color: #101010;">
+                                                                                      <img class="mr-1" src="../assets/images/index/instagram.svg" alt="photo">
+                                                                                      Instagram
+                                                                                    </a>
+                                                                                    <a href="" class="flex items-center no-underline font-semibold mt-4 md:mt-0" style="color: #101010;">
+                                                                                      <img class="mr-1" src="../assets/images/index/telegram.svg" alt="photo">
+                                                                                      Facebook
+                                                                                    </a>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </section>
+                                                                              
+                                                                              
+                                                                              
+                                                                              <footer id="footer" style="border-top: 2px solid rgba(16, 126, 104, 0.1);" class="md:pb-36 md:pt-36 py-20">
+                                                                                <div class="container mx-auto">
+                                                                                  <ul class="flex md
+                                                                                  :items-start justify-between flex-col md:flex-row items-center">
+                                                                                  <li class="flex md:inline-block justify-center flex-col items-center">
+                                                                                    <img class="" src="../assets/images/index/Logo.png" alt="photo">
+                                                                                    <p class="mt-4 footer-text text-center md:text-left" style="width: 330px; color: #111;">
+                                                                                      Alloh va Uning Rasulining ko‘rsatmasiga 
+                                                                                      muvofiq ish yuritsangiz-u, ishingiz yurishmasligi 
+                                                                                      mumkinmi? Yo‘q, aslo!
+                                                                                    </p>
+                                                                                  </li>
+                                                                                  <li class="flex items-center md:items-start  flex-col mt-8 md:mt-0 md:mr-10 lg:mr-10">
+                                                                                    <a class="no-underline font-semibold" style="color: #101010;" href="#sec1">Biz haqimizda</a>
+                                                                                    <a class="no-underline font-semibold mt-3" style="color: #101010;" href="#sec2">Nimalarni o'rganamiz?</a>
+                                                                                    <a class="no-underline font-semibold mt-3" style="color: #101010;" href="#sec3">Kimlarga foydali</a>
+                                                                                    <a class="no-underline font-semibold mt-3" style="color: #101010;" href="#contact">Aloqa</a>
+                                                                                  </li>
+                                                                                  <li class="flex flex-col mt-8 md:mt-0">
+                                                                                    <div>
+                                                                                      <a class="no-underline flex items-center font-semibold" href="mail:Islommoliyasi@gmail.com" style="color: #101010;">
+                                                                                        <img class="mr-2" width="19px" src="../assets/images/index/mail-fill 1.svg" alt="photo">
+                                                                                        Islommoliyasi@gmail.com
+                                                                                      </a>
+                                                                                      
+                                                                                    </div>
+                                                                                    <div>
+                                                                                      <a class="mt-3 no-underline flex items-center font-semibold" href="tel:
+                                                                                      +998944040440" style="color: #101010;">
+                                                                                      <img class="mr-2" width="18px" src="../assets/images/index/phone.svg" alt="">
+                                                                                      94 404 04 40
+                                                                                    </a>
+                                                                                  </div>
+                                                                                  
+                                                                                </a>
+                                                                                <div>
+                                                                                  <a class="mt-3 no-underline flex items-center font-semibold" href="" style="color: #101010;">
+                                                                                    <img class="mr-2" width="19px" src="../assets/images/index/location.svg" alt="">
+                                                                                    Islom Moliyasining joylashuvi
+                                                                                  </a>
+                                                                                </div>
+                                                                              </li>
+                                                                            </ul>
+                                                                          </div>
+                                                                        </footer>
+                                   
+                                                                  </body>
+                                                                  
+                                                                  <script>
+                                                                    window.addEventListener('scroll', () => {
+                                                                      let content1 = document.querySelector('.section1');
+                                                                      let contentPosition1 = content1.getBoundingClientRect().top;
+                                                                      let content2 = document.querySelector('.section2');
+                                                                      let contentPosition2 = content2.getBoundingClientRect().top;
+                                                                      let content3 = document.querySelector('.section3');
+                                                                      let contentPosition3 = content3.getBoundingClientRect().top;
+                                                                      let content4 = document.querySelector('.section4');
+                                                                      let contentPosition4 = content4.getBoundingClientRect().top;
+                                                                      let content5 = document.querySelector('.section5')
+                                                                      let contentPosition5 = content5.getBoundingClientRect().top;
+                                                                      let content6 = document.querySelector('#contact');
+                                                                      let contentPosition6 = content6.getBoundingClientRect().top;
+                                                                      let content7 = document.querySelector('#footer');
+                                                                      let contentPostion7 = content7.getBoundingClientRect().top;
+                                                                      let secList1 = document.querySelector('.sec-text1');
+                                                                      let secList2 = document.querySelector('.sec-text2');
+                                                                      let secList3 = document.querySelector('.sec-text3');
+                                                                      let secList4 = document.querySelector('.sec-text4');
+                                                                      let secList5 = document.querySelector('.sec-text5');
+                                                                      let secList6 = document.querySelector('.sec-text6')
+                                                                      let secList7 = document.querySelector('.sec-text7')
+                                                                      let screenPosition = window.innerHeight;
+                                                                      
+                                                                      if (contentPosition1 < screenPosition) {
+                                                                        secList1.classList.add('active');
+                                                                      } else {
+                                                                        secList1.classList.remove('active');
+                                                                      }
+                                                                      
+                                                                      if (contentPosition2 < screenPosition) {
+                                                                        secList2.classList.add('active');
+                                                                        secList1.classList.remove('active');  
+                                                                      } else {
+                                                                        secList2.classList.remove('active');
+                                                                      }
+                                                                      
+                                                                      if (contentPosition3 < screenPosition) {
+                                                                        secList3.classList.add('active');
+                                                                        secList2.classList.remove('active');
+                                                                      } else {
+                                                                        secList3.classList.remove('active');
+                                                                      }
+                                                                      
+                                                                      if (contentPosition4 < screenPosition) {
+                                                                        secList4.classList.add('active');
+                                                                        secList3.classList.remove('active');
+                                                                      } else {
+                                                                        secList4.classList.remove('active');
+                                                                      }
+                                                                      
+                                                                      if (contentPosition5 < screenPosition) {
+                                                                        secList5.classList.add('active');
+                                                                        secList4.classList.remove('active');
+                                                                      } else {
+                                                                        secList5.classList.remove('active');
+                                                                      }
+                                                                      
+                                                                      if (contentPosition6 < screenPosition) {
+                                                                        secList6.classList.add('active');
+                                                                        secList5.classList.remove('active');
+                                                                      } else {
+                                                                        secList6.classList.remove('active'); 
+                                                                      }
+                                                                      
+                                                                      if (contentPostion7 < screenPosition) {
+                                                                        secList7.classList.add('active');
+                                                                        secList6.classList.remove('active');
+                                                                      } else {
+                                                                        secList7.classList.remove('active');
+                                                                      }
+                                                                    })
+                                                                    
+                                                                    let mainQuestionSelectors = document.querySelectorAll('.questions-text-selector');
+                                                                    let mainQuestionSelector1 = document.querySelector('.questions-text-selector1');
+                                                                    let mainQuestionSelector2 = document.querySelector('.questions-text-selector2');
+                                                                    let mainQuestionTextWrapper1 = document.getElementById('mainListText1');
+                                                                    let mainQuestionTextWrapper2 = document.getElementById('mainListText2');
+                                                                    let mainQuestionLists = document.querySelectorAll('.main-question-text-list');
+                                                                    
+                                                                    mainQuestionSelector1.addEventListener('click', e => {
+                                                                      mainQuestionSelector1.classList.add('active');
+                                                                      mainQuestionSelector2.classList.remove('active');
+                                                                      mainQuestionTextWrapper1.classList.add('active');
+                                                                      mainQuestionTextWrapper2.classList.remove('active');
+                                                                    })
+                                                                    
+                                                                    mainQuestionSelector2.addEventListener('click', e => {
+                                                                      mainQuestionSelector2.classList.add('active');
+                                                                      mainQuestionSelector1.classList.remove('active');
+                                                                      mainQuestionTextWrapper2.classList.add('active');
+                                                                      mainQuestionTextWrapper1.classList.remove('active');
+                                                                    })
+                                                                    
+                                                                    let knowledgeSelectors = document.querySelectorAll('.knowledge-selector');
+                                                                    let knowledgeLists = document.querySelectorAll('.knowledge-list ');
+                                                                    let knowledgeWrappers = document.querySelectorAll('.knowledge-selector-wrapper');
+                                                                    
+                                                                    knowledgeSelectors.forEach(function(selector) {
+                                                                      knowledgeLists.forEach(function(list) {
+                                                                        selector.addEventListener('click', e => {
+                                                                          if (e.target.dataset.target == list.id) {
+                                                                            list.classList.toggle('active');
+                                                                            
+                                                                          } else {
+                                                                            list.classList.remove('active');
+                                                                            
+                                                                          }
+                                                                        })
+                                                                      })
+                                                                    })
+                                                                    
+                                                                    knowledgeWrappers.forEach(function(wrapper) {
+                                                                      knowledgeLists.forEach(function(list) {
+                                                                        wrapper.addEventListener('click', e => {
+                                                                          if (e.target.dataset.target == list.id) {
+                                                                            list.classList.toggle('active');
+                                                                          } else {
+                                                                            list.classList.remove('active');
+                                                                          }
+                                                                        })
+                                                                      })
+                                                                    })
+
+                                                                    let headerNavbar = document.querySelector('.assodiq-header2');
+                                                                    let navbarResOpenBtn = document.querySelector('.navbar-res-opener');
+                                                                    let navbarResWrapper = document.querySelector('.navbar-res-wrapper');
+                                                                    let navbarResCloser = document.querySelector('.navbar-res-closer');
+                                                                    let navbarResLinks = document.querySelectorAll('.navbar-res-link');
+                                                                    navbarResOpenBtn.addEventListener('click', e => {
+                                                                      navbarResWrapper.style.display = 'block';
+                                                                      headerNavbar.style.display = 'none';
+                                                                    })
+
+                                                                    navbarResCloser.addEventListener('click', e => {
+                                                                      navbarResWrapper.style.display = 'none';
+                                                                      headerNavbar.style.display = 'block';
+                                                                    })
+
+                                                                    navbarResLinks.forEach(function(link) {
+                                                                      window.addEventListener('click', e => {
+                                                                      if (e.target == navbarResWrapper || e.target == link) {
+                                                                        navbarResWrapper.style.display = 'none';
+                                                                        headerNavbar.style.display = 'block';
+                                                                      } else {
+                                                                        
+                                                                      }
+                                                                    })
+                                                                    })
+
+                                                                    
+                                                                  </script>
+                                                                  
+                                                                  </html>
+                                                                
